@@ -1,0 +1,16 @@
+https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/?envType=daily-question&envId=2026-07-23
+
+the above problem uses C++ special function called __builtin_clz(n) this basically does following
+
+Example 1
+int n = 5;
+
+Binary (32 bits):
+
+00000000 00000000 00000000 00000101
+
+There are 29 leading zeros, so
+
+__builtin_clz(5) = 29
+
+so substract it by 32 to gets the no. of bits i an given no. 
